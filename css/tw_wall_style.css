@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+body{
+    background-color:#000000;
+    color:#fff;
+    font-weight:300;
+}
+
+/* 메인 시작 */
+.main_wall{
+    width:100%;
+    height:100vh;
+    background-image:url(../img/tw_wall/main_v2.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    margin-bottom:50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.main_wall h1{
+    font-family: 'East Sea Dokdo', cursive;
+    color:#fff;
+    font-size:8vh;
+    line-height:1;
+}
+/* 메인 끝 */
+
+/* 메인 반응형 시작 */
+@media screen and (max-width: 767px) {
+    .main_wall{
+        height:50vh;
+    }
+}
+/* 메인 반응형 끝 */
+
+/* 서론 시작 */
+.con_wall{
+    width:90%;
+    max-width:1200px;
+    margin:0 auto;
+}
+.con_wall .intro{
+    width:100%;
+    margin:50px auto 100px auto;
+}
+.con_wall .intro span{
+    display:block;
+    font-family: 'East Sea Dokdo', cursive;
+    font-size:3rem;
+    margin-bottom:1rem;
+}
+/* 서론 끝 */
+
+/* 캐릭터 시작 */
+.con_wall .character{
+    width:100%;
+    height:auto;
+    margin:100px auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.con_wall .character>div{
+    width:30%;
+    height:600px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.con_wall .character .char_01{
+    background-image:url(../img/tw_wall/char_01_bw_2.png);
+}
+.con_wall .character .char_01:hover{
+    background-image:url(../img/tw_wall/char_01_2.png);
+}
+.con_wall .character .char_02{
+    background-image:url(../img/tw_wall/char_02_bw.png);
+}
+.con_wall .character .char_02:hover{
+    background-image:url(../img/tw_wall/char_02.png);
+}
+.con_wall .character .char_03{
+    background-image:url(../img/tw_wall/char_03_bw.png);
+}
+.con_wall .character .char_03:hover{
+    background-image:url(../img/tw_wall/char_03.png);
+}
+.con_wall .character img{
+    margin-bottom:2rem;
+}
+/* 캐릭터 끝 */
+
+/* 캐릭터 반응형 시작 */
+@media screen and (max-width:767px){
+    .con_wall .character{
+        flex-direction: column;
+    }
+    .con_wall .character>div{
+        width:100%;
+        height:300px;
+        background-position:top;
+    }
+    .con_wall .character>div+div{
+        margin-top:2rem;
+    } 
+}
+/* 캐릭터 반응형 끝 */
+
+/* 에피소드01 시작 */
+.con_wall .section{
+    width:100%;
+    height:auto;
+    margin:100px auto;
+    float:none;
+    clear:both;
+}
+.con_wall .section h1{
+    display:block;
+    font-family: 'East Sea Dokdo', cursive;
+    font-size:3rem;
+    line-height:1.7;
+    margin-bottom:4rem;
+    text-align:center;
+}
+.con_wall .ep01 img{
+    width:64%;
+    margin-right:5%;
+    margin-bottom:1.2rem;
+    float:left;
+}
+/* 에피소드01 끝 */
+
+/* 에피소드01 반응형 시작 */
+@media screen and (max-width:375px){
+    .con_wall .ep01 img{
+        min-width:auto;
+        width:100%;
+        margin-right:0%;
+        float:none;
+    }
+}
+/* 에피소드01 반응형 끝 */
+
+/* 에피소드02 시작 */
+.con_wall .ep02 img{
+    width:50%;
+    margin-left:5%;
+    margin-bottom:1.2rem;
+    float:right;
+}
+.con_wall .ep02 p{
+    min-height:556px;
+    padding-top:5%;
+    box-sizing:border-box;
+}
+/* 에피소드02 끝 */
+
+/* 에피소드03 시작 */
+.con_wall .ep03 .top{
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:2rem;
+}
+.con_wall .ep03 .top img:nth-of-type(1){
+    width:48.41%;
+}
+.con_wall .ep03 .top img:nth-of-type(2){
+    width:50.5%;
+}
+.con_wall .ep03 .bottom img{
+    width:48.5%;
+    margin-right:5%;
+    margin-bottom:1.2rem;
+    float:left;
+}
+.con_wall .ep03 .bottom p{
+    padding-top:8%;
+    min-height:404px;
+    box-sizing:border-box;
+}
+/* 에피소드03 끝 */
+
+/* 의미01 시작 */
+.con_wall .mean01 img{
+    width:60%;
+    float:right;
+    margin-left:5%;
+    margin-bottom:1.2rem;
+}
+.con_wall .mean01 p{
+    min-height:488.5px;
+    padding-top:5%;
+    box-sizing:border-box;
+}
+/* 의미01 끝 */
+
+/* 의미02 시작 */
+.con_wall .mean02 div{
+    width:100%;
+    margin:50px auto;
+}
+.con_wall .mean02 .part01 img{
+    width:50%;
+    float:left;
+    margin-right:5%;
+    margin-bottom:1.2rem;
+}
+.con_wall .mean02 .part01 p{
+    min-height:330px;
+    padding-top:4%;
+    box-sizing:border-box;
+}
+.con_wall .mean02 .part02 img{
+    width:50%;
+    float:right;
+    margin-left:5%;
+    margin-bottom:1.2rem;
+}
+/* 의미02 끝 */
+
+/* gallery 시작 */
+.con_wall .gallery{
+    max-width:600px;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    float:right;
+}
+.con_wall .gallery img{
+    width:100%;
+}
+.con_wall .gallery img+img{
+    margin-top:2rem;
+}
+
+/* gallery 끝 */

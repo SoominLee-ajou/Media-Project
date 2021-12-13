@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+		name="viewport">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="h-7">
+        <meta property="og:description" content="영화의 스토리뿐만 아니라 숨은 연출, 음악 등 영화 속 다양한 요소들을 소개하는 웹 매거진">
+        <meta property="og:image" content="img/common/opengraph.jpg">
+        <title>20대를 위한 영화</title>
+        <link href="css/reset.css" rel="stylesheet" type="text/css">
+        <link href="css/common.css" rel="stylesheet" type="text/css">
+        <link href="css/tw_style.css" rel="stylesheet" type="text/css">
+        <link rel="icon" href="img/common/favicon.ico">
+        <script src="https://kit.fontawesome.com/4715b1c10d.js" crossorigin="anonymous"></script>
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+        <script src="js/header.js"></script>
+        <script>
+            $(document).ready(function(){
+
+                $(".box").mouseover(function(){
+                    $(this).find('span').stop(true).animate({opacity:'0.8'});
+                    $(this).find('a').stop(true).animate({opacity:'1'});
+                });
+                $(".box").mouseout(function(){
+                    $(this).find('span').stop(true).animate({opacity:'0'});
+                    $(this).find('a').stop(true).animate({opacity:'0'});
+                });
+
+            //------------------------------------------
+            });
+        </script>
+    </head>
+    <body>
+        <!--헤더 시작-->
+        <div class="header_container">
+            <header>
+                <a href="index.html" class="logo">
+                    <img src="img/common/logo.svg" class="scroll_down" alt=""/>
+                    <img src="img/common/logo_w.svg" class="scroll_up" alt=""/>
+                </a>
+                <ul class="mainmenu">
+                    <li><a href="project.html"><p>Project</p></a></li>
+                    <li><a href="editor.html"><p>Editor</p></a></li>
+                    <li class="theme">
+                        <p>Theme <i class="fas fa-caret-down upside"></i></p>
+                        <ul class="submenu">
+                            <a href="color.html"><li>Color</li></a>
+                            <a href="ost.html"><li>OST</li></a>
+                            <a href="tw.html"><li>20's</li></a>
+                        </ul>
+                    </li>
+                </ul>
+            </header>
+        </div>
+        <!--헤더 끝-->
+
+        <div class="tw">
+            <div class="bg"></div>
+            <div class="con">
+                <div class="text">
+                    <h1>고민하는 청춘을 위한 영화들</h1>
+                    <p>
+                        청춘, 누군가는 이름만 들어도 가슴이 설레고 충만이 
+                        넘치는 단어라고 한다. 하지만 청춘을 지난 사람들이 
+                        그리는 푸르른 청춘과는 달리 한창 청춘을 통과하고 있는 
+                        이들에게 청춘은 마냥 푸르지만은 않다. 고독하기도 하고, 
+                        어디로 갈지 몰라 혼란스럽기도 하며 앞만 보고 달렸지만 
+                        정작 이룬 것이 없기도 하다. 분투하며 숨 가쁘게, 때로는 
+                        방황하며 살아가는 청춘. “아프니까 청춘”이라 하지만 
+                        너무나 아픈 방황기를 지나고 있는 청년들. 성인이지만 
+                        아직은 성숙하지 못하기에 불안정하고, 처음이기에 실패할 
+                        수밖에 없는. 작고 느리지만 그럼에도 앞으로 나아가는 
+                        청춘들을 위한 영화들을 선정해보았다.
+                    </p>
+                </div>
+                <div class="box wall">
+                    <span></span>
+                    <a href="tw_wall.html">월플라워</a>
+                </div>
+                <div class="box miso">
+                    <span></span>
+                    <a href="tw_miso.html">소공녀</a>
+                </div>
+                <div class="box tamako">
+                    <span></span>
+                    <a href="tw_tamako.html">모라토리움기의 다마코</a>
+                </div>
+                <div class="box happy">
+                    <span></span>
+                    <a href="tw_happy.html">꾸뻬씨의 행복여행</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

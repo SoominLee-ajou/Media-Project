@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+		name="viewport">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="h-7">
+        <meta property="og:description" content="영화의 스토리뿐만 아니라 숨은 연출, 음악 등 영화 속 다양한 요소들을 소개하는 웹 매거진">
+        <meta property="og:image" content="img/common/opengraph.jpg">
+        <title>8 마일</title>
+        <link href="css/reset.css" rel="stylesheet" type="text/css">
+        <link href="css/common.css" rel="stylesheet" type="text/css">
+        <link href="css/ost_mile_style.css" rel="stylesheet" type="text/css">
+        <link rel="icon" href="img/common/favicon.ico">
+        <script src="https://kit.fontawesome.com/4715b1c10d.js" crossorigin="anonymous"></script>
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+        <script src="js/header.js"></script>
+        <script>
+
+            $(document).ready(function(){
+
+                //01. album rotate
+                $('.album').mouseover(function(){
+                    $('.album').find('button').stop(true).fadeIn(500);
+                });
+                $('.album').mouseout(function(){
+                    $('.album').find('button').stop(true).fadeOut(500);
+                });
+
+                //02. slide
+                $('.t01').click(function(){
+                    $('.t01').stop(true).animate({opacity:'1'});
+                    $('.t02').stop(true).animate({opacity:'0.3'});
+                    $('.t03').stop(true).animate({opacity:'0.3'});
+                    $('.tc01').show();
+                    $('.tc02').hide();
+                    $('.tc03').hide();
+                });
+                $('.t02').click(function(){
+                    $('.t02').stop(true).animate({opacity:'1'});
+                    $('.t01').stop(true).animate({opacity:'0.3'});
+                    $('.t03').stop(true).animate({opacity:'0.3'});
+                    $('.tc02').show();
+                    $('.tc01').hide();
+                    $('.tc03').hide();
+                });
+                $('.t03').click(function(){
+                    $('.t03').stop(true).animate({opacity:'1'});
+                    $('.t02').stop(true).animate({opacity:'0.3'});
+                    $('.t01').stop(true).animate({opacity:'0.3'});
+                    $('.tc03').show();
+                    $('.tc02').hide();
+                    $('.tc01').hide();
+                });
+
+            //----------------------------------------
+            });
+
+        </script>
+    </head>
+    <body>
+        <!--헤더 시작-->
+        <div class="header_container">
+            <header>
+                <a href="index.html" class="logo">
+                    <img src="img/common/logo.svg" class="scroll_down" alt=""/>
+                    <img src="img/common/logo_w.svg" class="scroll_up" alt=""/>
+                </a>
+                <ul class="mainmenu">
+                    <li><a href="project.html"><p>Project</p></a></li>
+                    <li><a href="editor.html"><p>Editor</p></a></li>
+                    <li class="theme">
+                        <p>Theme <i class="fas fa-caret-down upside"></i></p>
+                        <ul class="submenu">
+                            <a href="color.html"><li>Color</li></a>
+                            <a href="ost.html"><li>OST</li></a>
+                            <a href="tw.html"><li>20's</li></a>
+                        </ul>
+                    </li>
+                </ul>
+            </header>
+        </div>
+        <!--헤더 끝-->
+        
+        <div class="main_mile">
+            <img src="img/ost_mile/main_title.png" alt="title"/>
+        </div>
+        <div class="con_mile">
+            <!--서론 시작-->
+            <div class="intro_mile">
+                <span>&lt;8 마일, 2003&gt;</span>
+                <p>
+                    2010년대 초에 들어서면서 우리나라에서 비주류 문화였던 힙합은 이제는 대중문화의
+                    하나로 자리잡았다. 쇼미더머니를 시작으로 많은 힙합 프로그램들이 지금도 방영되고
+                    있고, 음원 차트에서는 힙합 곡을 어렵지 않게 찾아볼 수 있으며 많은 청소년들이 희망
+                    직업으로 래퍼를 손꼽기도 한다. 이처럼 우리나라에서 힙합이라는 장르에 대한 관심은
+                    점점 뜨거워지고 그에 따른 다양한 힙합 컨텐츠들도 많은 관심을 받게 된다.
+                    영화 &lt;8 마일&gt;은 어쩌면 그런 컨텐츠들의 시작일지도 모른다.
+                </p>
+                <p>
+                    2003년 개봉한 &lt;8 마일&gt;은 14년이 지난 2017년 재개봉하는 등 많은 사람들이 기억하고
+                    최고로 손꼽는 영화 중 하나이다. 영화는 힙합 역사상 가장 위대한 아티스트 중 한 명인
+                    에미넴의 실제 언더그라운드 시절을 모티브로 두고 만들었다. 따라서 디트로이트의
+                    빈민층의 90년대의 에미넴과 그 시절의 모습을 볼 수 있다. 힙합 영화인 만큼 그 시절의
+                    힙합 음악도 다양하게 나오며 영화의 메인 OST는 지금까지도 빌보드에서 12주간 1위를
+                    달성할 정도로 힙합 역사상 가장 유명한 곡으로 봐도 무방하다.
+                </p>
+            </div>
+            <!--서론 끝-->
+
+            <!-- 에미넴 소개 시작 -->
+            <div class="who">
+                <img src="img/ost_mile/eminem.png" alt="eminem"/>
+                <h1>Who Is Eminem?</h1>
+                <p>
+                    흑인의 전유물로 여겨지던 힙합 음악에서 밑바닥부터
+                    시작해 전설의 위치에 오른 백인 힙합 아티스트이며,
+                    1990년대 힙합의 황금기 골든 에라의 끝에 혜성처럼
+                    등장해 2000년대를 점령한, 힙합 역사상 가장 위대한
+                    아티스트 중 한 명이다. 대중음악 역사상 가장 성공한
+                    힙합 아티스트이며, 또한 21세기를 통틀어 가장 성공한
+                    아티스트 중 한 명이기도 하다. 뿐만 아니라, 에미넴은
+                    동시에 대중음악 역사상 가장 롱런에 성공한 음악가 중
+                    하나를 꼽을 때 반드시 언급되는데, 1972년생인 그는
+                    현재 50대를 바라보고 있으며, 그의 활동 경력만 해도
+                    거의 30년이 되었다. 그럼에도 불구하고 싱글이나 앨범이
+                    발매될때마다 전세계 음원 시장 차트 상위권을 기록하며
+                    가장 최근에 발매한 'Music To Be Murdered By'는
+                    전성기 시절보다도 발전한 작사 능력과 랩스킬을
+                    보여주며 수많은 래퍼들에게 귀감이 되었다.
+                    현시대의 Rap God이라고 불릴만큼 전 세계 힙합씬에서 
+                    에미넴은 가장 강력한 영향력을 가지고 있다고 해도
+                    과언이 아니다.
+                </p>
+            </div>
+            <!-- 에미넴 소개 끝 -->
+
+            <!-- OST 소개 시작 -->
+            <div class="ost">
+                <div class="album">
+                    <img src="img/ost_mile/ost_main.png" alt=""/>
+                    <a href="https://www.youtube.com/watch?v=_Yhyp-_hX2s"><button type="button"><p>OST 감상하기</p></button></a>
+                </div>
+                <div class="text">
+                    <h1>OST : Lose Yourself</h1>
+                    <p>
+                        8 마일의 메인 OST이자 앨범 8 마일 사운드트랙의 1번 트랙이다.
+
+                        2000년대 미국 힙합을 대표하는 명곡으로, &lt;8 마일&gt;의 개봉 후 힙합
+                        역사상 최초로 12주간 빌보드 핫 100 1위를 기록하는 등 에미넴 최고의 흥행곡들 중 하나다. 동시에 2000년대 통틀어 가장 성공한
+                        곡들 중 하나이며, 힙합 역사상 가장 유명한 곡들 중에서는 빠지지
+                        않는 곡이다. 75회 아카데미 시상식 주제가상 부문 수상곡이며, 에미넴이
+                        원테이크로 녹음한 것으로 유명하다. 지금도 꾸준히 힙합의 정석이라
+                        불리며 우리나라에서도 많은 아티스트들이 리메이크를 하고 있다.
+                    </p>
+                </div>
+            </div>
+            <div class="ost_lylic">
+                <p>
+                    <span>You better lose yourself in the music, the moment</span><br/>
+                    당장 이 음악에 몸을 던져, 이 순간<br/>
+                    <span>You own it, you better never let it go</span><br/>
+                    너에게 기회가 와, 절대로 보내지 마<br/>
+                    <span>You only get one shot, do not miss your chance to blow</span><br/>
+                    너에게 단 한 번의 기회가 와, 절대로 기회를 날리지 말라고<br/>
+                    <span>This opportunity comes once in a lifetime</span><br/>
+                    이건 인생에서 단 한 번 오는 기회라고
+                </p>
+            </div>
+            <!-- OST 소개 끝 -->
+
+            <!-- track 소개 시작 -->
+            <div class="track">
+                <div class="track_intro">
+                    <div class="text">
+                        <div class="text_inner">
+                            <h1>More Tracks</h1>
+                            <p>
+                                힙합을 주제로 한 영화인 만큼 극 중에서는 그 시절의
+                                수많은 힙합곡과 힙합 비트들을 들을 수 있다. 특히나
+                                극 중 하이라이트 장면인 랩배틀 장면에서는 강렬하고도
+                                신나는 비트에 타격감 넘치는 에미넴과 상대의 랩을
+                                들을 수 있다. 다음 곡들은 &lt;8 마일&gt; 안에서 들을
+                                수 있는 곡들로 힙합을 좋아하는 사람들이라면 몸을
+                                가만히 있지 못할 것이다.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="track_list_btn">
+                    <div class="track_img t01">
+                    </div>
+                    <div class="track_img t02">
+                    </div>
+                    <div class="track_img t03">
+                    </div>
+                </div>
+            </div>
+
+            <div class="track_inner">
+                <div class="track_con tc01">
+                    <img src="img/ost_mile/track_img01.png" alt=""/>
+                    <a href="https://www.youtube.com/watch?v=yoYZf-lBF_U"><h2>Shook Ones pt2 <span>-</span> <br/>MOBB</h2></a>
+                    <p>
+                        영화의 인트로 곡이자 주인공 래빗과 파파독의
+                        랩 배틀 결승전에서 사용된 삽입곡이다. 
+                        MOBB는 Prodigy와 Havoc으로 구성된 90년대
+                        골든에라 동부 힙합을 대표하는 듀오로 퀸스에서
+                        결성되었다. 주로 퀸즈브릿지의 잔혹한 범죄를
+                        랩으로 표현한 것과 이스트 코스트답게 어둡고                                
+                        둔탁한 비트가 특징이다. &lt;8 마일&gt;에선 에미넴이
+                        이 비트 위에 경쟁 상대인 파파독을 향하여 랩
+                        배틀을 선보였고 그 중 '1, 2, 3 to the 4'라는
+                        구절은 지금까지도 많은 래퍼들이 인용하고 있다.
+                    </p>
+                </div>
+
+                <div class="track_con tc02">
+                    <img src="img/ost_mile/track_img02.png" alt=""/>
+                    <a href="https://www.youtube.com/watch?v=_JZom_gVfuw"><h2>Juicy <span>-</span> <br/>Notorious B.I.G</h2></a>
+                    <p>
+                        1997년 발매된 ‘Notorious B.I.G’, aka 비기의
+                        정규 1집 수록곡. 체구에 맞는 묵직한 목소리에
+                        유연한 박자감각, 엄청난 청각적 쾌감을 주는
+                        그루브로 세계에서 랩을 제일 잘 하는 남자라는
+                        타이틀을 가지고 있는 비기. 하지만 1997년
+                        비기가 총에 맞아 사망하게 되는 비극이 일어난다.
+                        그래서 그의 정규앨범은 단 두장 뿐이지만 두 장
+                        모두 역대급 명반으로 칭송받으며 지금까지도
+                        존경을 받는 래퍼다. 영화에선 차를 타고 있는
+                        에미넴과 친구들이 듣는 노래로 삽입되었는데,
+                        어두운 삶이어도 친구들과의 밝은 우정이 있다는
+                        것을 돋보이게 하는 곡이다.
+                    </p>
+                </div>
+
+                <div class="track_con tc03">
+                    <img src="img/ost_mile/track_img03.png" alt=""/>
+                    <a href="https://www.youtube.com/watch?v=j0fSZNMxa3w"><h2>Battle <span>-</span> <br/>Gang Starr</h2></a>
+                    <p>
+                        2010년 발매된 8 마일 오리지널 사운드 트랙
+                        앨범에 15번으로 수록된 곡이다. 고등래퍼 3에 출연한 
+                        릴타치와 같은 방송에서 우승한 이영지가 싸이퍼 미션을
+                        진행할 때 나온 비트로도 유명하다.<br/>
+                        갱 스타는 MC인 구루와 DJ인 프리미어로 구성된 미국의
+                        힙합듀오로, 1989년 데뷔해 처음부터 재즈힙합의 시작을
+                        창시하였다. 언더그라운드 시절에는 이 때보다 멤버도
+                        많았고, 아는 사람들도 적었던 그룹이었지만, 프리미어의 
+                        영입 후 체제가 정리되며 힙합계의 전설로 남게되었다.
+                        허나 2005년 그룹이 해체되고, 2010년 구루의 
+                        폐암으로 인한 작고로 듀오의 갱 스터의 모습은 
+                        아쉽게도 볼 수 없다.
+                    </p>
+                </div>
+            </div>
+            <!-- track 소개 끝 -->
+        </div>
+    </body>
+</html>

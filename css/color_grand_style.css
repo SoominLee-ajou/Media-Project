@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body{
+    background-color:#ecdccd;
+}
+
+/*메인 시작*/
+.main_grand{
+    width:100%;
+    height:100vh;
+    background-image:url(../img/grand/main_banner.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    margin-bottom:50px;
+    position:relative;
+}
+.main_grand span{
+    width:100%;
+    height:102%;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ecdccd+0,ecdccd+100&0+70,1+100 */
+background: -moz-linear-gradient(top,  rgba(236,220,205,0) 0%, rgba(236,220,205,0) 70%, rgba(236,220,205,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(236,220,205,0) 0%,rgba(236,220,205,0) 70%,rgba(236,220,205,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(236,220,205,0) 0%,rgba(236,220,205,0) 70%,rgba(236,220,205,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ecdccd', endColorstr='#ecdccd',GradientType=0 ); /* IE6-9 */
+    position:absolute;
+}
+
+@media screen and (max-width: 767px) {
+    .main_grand{
+        width:100%;
+        height:50vh;
+    }
+}
+
+/*메인 끝*/
+
+/*서론 시작*/
+.con_grand{
+    max-width:1200px;
+    width:90%;
+    overflow:hidden;
+    margin:0 auto;
+}
+.con_grand .intro_grand{
+    width:100%;
+    overflow:hidden;
+    margin-bottom:100px;
+}
+.con_grand .intro_grand span{
+    display:block;
+    width:100%;
+    box-sizing:border-box;
+    font-weight:700;
+    margin-bottom:15px;
+}
+.con_grand .intro_grand p{
+    width:49%;
+    overflow:hidden;
+    box-sizing:border-box;
+    float:left;
+}
+.con_grand .intro_grand p+p{
+    margin-left:2%
+}
+/*서론 끝*/
+
+/*서론 반응형 시작*/
+@media screen and (max-width:767px){
+    .con_grand .intro_grand p{
+        width:100%;
+        float:none;
+    }
+    .con_grand .intro_grand p+p{
+        margin-left:0%;
+        margin-top:10px;
+    }
+}
+/*서론 반응형 끝*/
+
+/*Pink 시작*/
+.con_grand .pink_grand{
+    overflow:hidden;
+    margin-bottom:60px;
+}
+.con_grand h1{
+    text-align:center;
+    margin-top:10px;
+    margin-bottom:30px;
+    font-size:3rem;
+    font-weight:700;
+    color:#333;
+    font-family: 'Pacifico', cursive;
+}
+.con_grand .pink_grand .banner{
+    width:100%;
+    height:600px;
+    background-image:url(../img/grand/pink01.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.con_grand .pink_grand .pink_grand_con{
+    overflow:hidden;
+    margin:40px 0;
+}
+.con_grand .pink_grand .pink_grand_con img{
+    float:left;
+    margin-right:5%;
+}
+.con_grand .pink_grand .pink_grand_con p{
+    padding-top:5%;
+}
+/*Pink 끝*/
+
+/*Pink 반응형 시작*/
+@media screen and (max-width:1440px){
+    .con_grand .pink_grand .banner{
+        height:0;
+        padding-bottom:50%;
+    }
+    .con_grand .pink_grand .pink_grand_con img{
+        width:50%;
+        margin-bottom:2%;
+    }
+}
+@media screen and (max-width:767px){
+    .con_grand h1{
+        margin-bottom:20px;
+    }
+    .con_grand .pink_grand .pink_grand_con{
+        margin:20px 0;
+    }
+}
+@media screen and (max-width: 599px) {
+    .con_grand .pink_grand{
+        margin-bottom:40px;
+    }
+}
+/*Pink 반응형 끝*/
+
+/*Violet 시작*/
+.con_grand .violet_grand{
+    overflow:hidden;
+    margin-bottom:60px;
+}
+.con_grand .violet_grand .banner{
+    width:100%;
+    height:600px;
+    background-image:url(../img/grand/violet02.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.con_grand .violet_grand .violet_grand_con{
+    overflow:hidden;
+    margin:40px 0;
+}
+.con_grand .violet_grand .violet_grand_con img{
+    float:right;
+    width:57.3%;
+    margin-bottom:2%;
+    margin-left:3%;
+}
+.con_grand .violet_grand .violet_grand_con p{
+    padding-top:8%;
+}
+/*Violet 끝*/
+
+/*Violet 반응형 시작*/
+@media screen and (max-width:1440px){
+    .con_grand .violet_grand .banner{
+        height:0;
+        padding-bottom:50%;
+    }
+}
+@media screen and (max-width:767px){
+    .con_grand .violet_grand .violet_grand_con{
+        margin:20px 0;
+    }
+}
+@media screen and (max-width: 599px) {
+    .con_grand .violet_grand{
+        margin-bottom:40px;
+    }
+}
+/*Violet 반응형 끝*/
+
+/*Yellow 시작*/
+.con_grand .yellow_grand{
+    overflow:hidden;
+    margin-bottom:60px;
+}
+.con_grand .yellow_grand .yellow_grand_con01{
+    overflow:hidden;
+    margin:40px 0;
+}
+.con_grand .yellow_grand .yellow_grand_con01 img{
+    float:left;
+    width:57%;
+    margin-right:5%;
+    margin-bottom:2%;
+} 
+.con_grand .yellow_grand .yellow_grand_con02{
+    width:100%;
+    margin:40px 0;
+    overflow:hidden;
+}
+.con_grand .yellow_grand .yellow_grand_con02 .yellow_grand_img{
+    width:49%;
+    height:49%;
+    float:left;
+    overflow:hidden;
+}
+.con_grand .yellow_grand .yellow_grand_con02 .yellow_grand_img img{
+    width:100%;
+}
+.con_grand .yellow_grand .yellow_grand_con02 .yellow_grand_img+.yellow_grand_img{
+    margin-left:2%;
+}
+/*Yellow 끝*/
+
+/*Yellow 반응형 시작*/
+@media screen and (max-width:767px){
+    .con_grand .yellow_grand .yellow_grand_con01{
+        margin:20px 0;
+    }
+    .con_grand .yellow_grand .yellow_grand_con02{
+        margin:20px 0;
+    }
+}
+@media screen and (max-width: 599px) {
+    .con_grand .yellow_grand{
+        margin-bottom:40px;
+    }
+}
+/*Yellow 반응형 끝*/

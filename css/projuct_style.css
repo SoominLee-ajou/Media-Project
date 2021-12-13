@@ -1,0 +1,197 @@
+.header_container{
+    background-color:rgba(255,255,255,0.9);
+}
+.header_container header .mainmenu>li a{
+    color:#222;
+}
+
+
+
+/* section 공통 시작 */
+.project{
+    max-width:1200px;
+    width:90%;
+    margin:0 auto;
+    padding-top:15rem;
+}
+.project section{
+    width:100%;
+    margin-bottom:15rem;
+    letter-spacing: -0.1rem;
+}
+.project section .title{
+    display:inline-block;
+    font-size:3.6rem;
+    margin-bottom:6rem;
+    padding:0 2rem;
+    font-weight:300;
+    width:90%;
+    text-align:center;
+}
+.project section .title span{
+    color:var(--point-color);
+    font-size:4.8rem;
+}
+.project section .title div{
+    width:6rem;
+    height:1.5px;
+    background-color:#222;
+    margin:0 auto;
+}
+/* section 공통 끝 */
+
+/* section 공통 반응형 시작 */
+@media screen and (max-width:319px){
+    .project section .title{
+        font-size:2.4rem;
+    }
+    .project section .title span{
+        font-size:3.2rem;
+    }
+    .project section .title div{
+        width:4rem;
+        height:1px;
+    }
+}
+/* section 공통 반응형 끝 */
+
+/* section 01 시작 */
+.project .section01{
+    text-align:center;
+}
+.project .section01 img{
+    width:16rem;
+    margin:0 auto 2rem auto;
+}
+.project .section01 p{
+    font-size:2rem;
+}
+.project .section01 p span{
+    color:var(--point-color);
+}
+/* section 01 끝 */
+
+/* section01 반응형 시작 */
+@media screen and (max-width:370px){
+    .project .section01 p br{
+        display:none;
+    }
+}
+/* section01 반응형 끝 */
+
+/* section02 시작 */
+.project .section02 .guide{
+    float:none;
+    clear:both;
+}
+.project .section02 .guide+.guide{
+    margin-top:12rem;
+}
+.project .section02 .guide img{
+    width:50%;
+}
+.project .section02 .guide .text .subtitle{
+    padding:3rem 0 2rem 0;
+    font-size:2rem;
+    font-weight:500;
+    /* color:var(--point-color); */
+}
+.project .section02 .guide .text .subtitle span{
+    font-size:3.6rem;
+    font-weight:200;
+    /* color:#ccc; */
+    color:var(--point-color);
+}
+
+.project .section02 .guide_01 img,
+.project .section02 .guide_03 img{
+    float:right;
+    margin-left:5%;
+}
+.project .section02 .guide_02 img{
+    float:left;
+    margin-right:5%;
+}
+/* section02 끝 */
+
+/* section02 반응형 시작 */
+@media screen and (max-width:767px){
+    .project .section02 .guide img{
+        width:100%;
+        float:none;
+        clear:both;
+    }
+    .project .section02 .guide .text .subtitle{
+        padding:0rem 0 3rem 0;
+    }
+    .project .section02 .guide_01 img,
+    .project .section02 .guide_03 img{
+        margin-left:0%;
+    }
+    .project .section02 .guide_02 img{
+        margin-right:0%;
+    }
+}
+/* section02 반응형 끝 */
+
+/* section 03 시작 */
+.project .section03 .timeline{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+}
+.project .section03 .timeline+.timeline{
+    margin-top:7.5rem;
+}
+
+.project .section03 .timeline .month{
+    display:block;
+    width:14rem;
+    /* background-color:aquamarine; */
+    color:var(--point-color);
+    font-size:3.6rem;
+    font-weight:200;
+    margin-bottom:2rem;
+    margin-right:2rem;
+}
+.project .section03 .timeline .wrap{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    width:100%;
+    height:auto;
+}
+.project .section03 .timeline .wrap .text{
+    border-left:1px solid #ddd;
+    padding:4rem 0;
+    padding-left:4rem;
+    box-sizing:border-box;
+}
+.project .section03 .timeline .wrap .text table th{
+    padding-right:1rem;
+}
+.project .section03 .timeline .wrap .text table td{
+    padding-bottom:2rem
+}
+.project .section03 .timeline .wrap .text table tr:last-child td{
+    padding-bottom:0;
+}
+.project .section03 .timeline .wrap img{
+    width:50%;
+}
+/* section 03 끝 */
+
+/* sectino03 반응형 시작 */
+@media screen and (max-width:767px){
+    .project .section03 .timeline .wrap{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .project .section03 .timeline .wrap img{
+        width:100%;
+        margin-top:2rem;
+    }
+}
+/* sectino03 반응형 끝 */

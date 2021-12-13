@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+	    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+		name="viewport">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="h-7">
+        <meta property="og:description" content="영화의 스토리뿐만 아니라 숨은 연출, 음악 등 영화 속 다양한 요소들을 소개하는 웹 매거진">
+        <meta property="og:image" content="img/common/opengraph.jpg">
+        <title>H-7</title>
+        <link href="css/reset.css" rel="stylesheet" type="text/css">
+        <link href="css/common.css" rel="stylesheet" type="text/css">
+        <link href="css/editor_style.css" rel="stylesheet" type="text/css">
+        <link rel=" shortcut icon" href="img/common/favicon.ico">
+        <link rel="icon" href="img/common/favicon.ico">
+        <script src="https://kit.fontawesome.com/4715b1c10d.js" crossorigin="anonymous"></script>
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+        <script src="js/header.js"></script>
+        <script>
+            $(document).ready(function(){
+
+                $(".box").mouseover(function(){
+                    $(this).find('span').stop(true).animate({opacity:'0.8'});
+                    $(this).find('a').stop(true).animate({opacity:'1'});
+                });
+                $(".box").mouseout(function(){
+                    $(this).find('span').stop(true).animate({opacity:'0'});
+                    $(this).find('a').stop(true).animate({opacity:'0'});
+                });
+
+            //------------------------------------------
+            });
+        </script>
+    </head>
+    <body>
+       <!--헤더 시작-->
+       <div class="header_container">
+        <header>
+            <a href="index.html" class="logo">
+                <img src="img/common/logo.svg" class="scroll_down" alt=""/>
+                <img src="img/common/logo_w.svg" class="scroll_up" alt=""/>
+            </a>
+            <ul class="mainmenu">
+                <li><a href="project.html"><p>Project</p></a></li>
+                <li><a href="editor.html"><p>Editor</p></a></li>
+                <li class="theme">
+                    <p>Theme <i class="fas fa-caret-down upside"></i></p>
+                    <ul class="submenu">
+                        <a href="color.html"><li>Color</li></a>
+                        <a href="ost.html"><li>OST</li></a>
+                        <a href="tw.html"><li>20's</li></a>
+                    </ul>
+                </li>
+            </ul>
+        </header>
+    </div>
+    <!--헤더 끝-->
+
+        <!--내용 시작-->
+        <div class="bg">
+            
+        </div>
+        <div class="editor">
+            <div class="inner">
+                <h1><span>E</span>ditor</h1>
+                <div class="line"></div>
+
+                <div class="box_char">
+                    <div class="char">
+                        <div class="name">
+                            <img src="img/editor/char01.png" alt=""/>
+                            <div class="text">
+                                <h2>Editor</h2>
+                                <p>Nacho</p>
+                            </div>
+                        </div>
+                        <p>
+                            <span>인간사료 나쵸....</span><br/>
+                            SF 장르를 제외한 판타지 영화를 좋아하고, 
+                            열린 결말을 굉장히 싫어한다.<br/>
+                            로맨스 영화는 체질상 못본다.<br/>
+                            이 프로젝트를 하면서 자꾸 영화를 분석하려해서 
+                            가끔 슬프다......☆
+                        </p>
+                        <span>안효성 | 201721054 (35)</span>
+                    </div>
+
+                    <div class="char">
+                        <div class="name name02">
+                            <img src="img/editor/char02.png" alt=""/>
+                            <div class="text">
+                                <h2>Editor</h2>
+                                <p>Caramel</p>
+                            </div>
+                        </div>
+                        <p>
+                            <span>영화관 알바 출신 에디터</span><br/>
+                            영상미가 뛰어난 영화나 독립영화를 즐겨보며, 
+                            픽사 영화를 좋아한다.<br/>
+                            히어로물을 싫어하여 마블 영화도 보지 않았지만, 
+                            크리스토퍼 놀란 감독을 좋아해 히어로물로는 
+                            유일하게 다크나이트 시리즈를 즐겨본다.
+                        </p>
+                        <span>이수민 | 201721077 (39)</span>
+                    </div>
+
+                    <div class="char">
+                        <div class="name name03">
+                            <img src="img/editor/char03.png" alt=""/>
+                            <div class="text">
+                                <h2>Editor</h2>
+                                <p>Cheeze</p>
+                            </div>
+                        </div>
+                        <p>
+                            <span>영화 출연도 했던 에디터</span>
+                            <br/>
+                            2012년에는 어벤져스를,,,<br/>
+                            2013년에는 겨울왕국을,,,<br/>
+                            20대 중반에도 여전히 어린아이 취향으로 
+                            디즈니, 픽사, 마블 등을 10년 째 덕질 중인 
+                            미키 마우스의 충실한 노예다.
+                        </p>
+                        <span>황지환 | 외부참여</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--내용 끝-->
+    </body>
+</html>

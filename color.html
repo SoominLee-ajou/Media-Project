@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+		name="viewport">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="h-7">
+        <meta property="og:description" content="영화의 스토리뿐만 아니라 숨은 연출, 음악 등 영화 속 다양한 요소들을 소개하는 웹 매거진">
+        <meta property="og:image" content="img/common/opengraph.jpg">
+        <title>색감 영화</title>
+        <link href="css/reset.css" rel="stylesheet" type="text/css">
+        <link href="css/common.css" rel="stylesheet" type="text/css">
+        <link href="css/color_style.css" rel="stylesheet" type="text/css">
+        <link rel="icon" href="img/common/favicon.ico">
+        <script src="https://kit.fontawesome.com/4715b1c10d.js" crossorigin="anonymous"></script>
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+        <script src="js/header.js"></script>
+        <script>
+            $(document).ready(function(){
+
+                $(".box").mouseover(function(){
+                    $(this).find('span').stop(true).animate({opacity:'0.8'});
+                    $(this).find('a').stop(true).animate({opacity:'1'});
+                });
+                $(".box").mouseout(function(){
+                    $(this).find('span').stop(true).animate({opacity:'0'});
+                    $(this).find('a').stop(true).animate({opacity:'0'});
+                });
+
+
+            //------------------------------------------
+            });
+        </script>
+    </head>
+    <body>
+        <!--헤더 시작-->
+        <div class="header_container">
+            <header>
+                <a href="index.html" class="logo">
+                    <img src="img/common/logo.svg" class="scroll_down" alt=""/>
+                    <img src="img/common/logo_w.svg" class="scroll_up" alt=""/>
+                </a>
+                <ul class="mainmenu">
+                    <li><a href="project.html"><p>Project</p></a></li>
+                    <li><a href="editor.html"><p>Editor</p></a></li>
+                    <li class="theme">
+                        <p>Theme <i class="fas fa-caret-down upside"></i></p>
+                        <ul class="submenu">
+                            <a href="color.html"><li>Color</li></a>
+                            <a href="ost.html"><li>OST</li></a>
+                            <a href="tw.html"><li>20's</li></a>
+                        </ul>
+                    </li>
+                </ul>
+            </header>
+        </div>
+        <!--헤더 끝-->
+
+        <div class="color">
+            <div class="bg"></div>
+            <div class="con">
+                <div class="text">
+                    <h1>아름다운 색감의 영화들</h1>
+                    <p>
+                        영화의 여러 시각 요소 중 ‘색(Color)’은 영화의 배경과 
+                        분위기, 또는 장면의 의미 등을 상징적으로 표현할 수 
+                        있는 가장 효과적인 요소다. 장소나 시간의 흐름에 따른 
+                        색감 차이의 활용은 관객들이 이야기의 흐름이나 인물의 
+                        감정을 쉽게 파악할 수 있도록 도와준다. 색이 가진 
+                        느낌과 온도, 표정을 통해 영화는 더욱 완성도를 높이고, 
+                        풍부한 볼거리를 선사한다. 영화의 전반적인 톤 앤 매너를 
+                        설정하는 것부터, 영화 속 캐릭터의 성격이나, 그들 간의 
+                        관계를 설명하기 위해 활용된 고유의 상징색, 색감과 더불어 
+                        질감까지 표현되어 영화의 몰입감을 높여주는 작품 4가지를 
+                        선택해보았다. 
+                    </p>
+                </div>
+                <div class="box lala">
+                    <span></span>
+                    <a href="color_lala.html">라라랜드</a>
+                </div>
+                <div class="box prada">
+                    <span></span>
+                    <a href="color_prada.html">악마는 프라다를 입는다</a>
+                </div>
+                <div class="box grand">
+                    <span></span>
+                    <a href="color_grand.html">그랜드 부다페스트 호텔</a>
+                </div>
+                <div class="box vin">
+                    <span></span>
+                    <a href="color_vin.html">러빙 빈센트</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

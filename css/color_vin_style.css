@@ -1,0 +1,375 @@
+body{
+    background-color:#eeede1;
+    color:#695409;
+}
+
+/*메인 시작*/
+.main_vin{
+    width:100%;
+    height:100vh;
+    overflow:hidden;
+    background-image:url(../img/vincent/main_banner.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    position:relative;
+    margin-bottom:50px;
+}
+.main_vin img{
+    width:400px;
+    height:219px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-109.5px;
+    margin-left:-200px;
+}
+
+@media screen and (max-width: 767px) {
+    .main_vin{
+        width:100%;
+        height:50vh;
+    }
+    .main_vin img{
+        width:300px;
+        height:164.25px;
+        position:absolute;
+        top:50%;
+        left:50%;
+        margin-top:-82.125px;
+        margin-left:-150px;
+    }
+}
+@media screen and (max-width: 599px) {
+    .main_vin img{
+        width:200px;
+        height:109.5px;
+        position:absolute;
+        top:50%;
+        left:50%;
+        margin-top:-54.5px;
+        margin-left:-100px;
+    }
+}
+
+/*메인 끝*/
+
+
+/*서론 시작*/
+.con_vin{
+    max-width:1200px;
+    width:90%;
+    overflow:hidden;
+    margin:0 auto;
+}
+.con_vin .intro_vin{
+    width:100%;
+    overflow:hidden;
+    margin-bottom:100px;
+}
+.con_vin .intro_vin span{
+    display:block;
+    width:100%;
+    box-sizing:border-box;
+    font-weight:700;
+    margin-bottom:15px;
+}
+.con_vin .intro_vin p{
+    width:49%;
+    overflow:hidden;
+    box-sizing:border-box;
+    float:left;
+}
+.con_vin .intro_vin p+p{
+    margin-left:2%;
+}
+/*서론 끝*/
+
+/*서론 반응형 시작*/
+@media screen and (max-width:767px){
+    .con_vin .intro_vin p{
+        width:100%;
+        float:none;
+    }
+    .con_vin .intro_vin p+p{
+        margin-left:0;
+        margin-top:15px;
+    }
+}
+/*서론 반응형 끝*/
+
+/*yellow&blue 시작*/
+.con_vin .yellow_vin{
+    overflow:hidden;
+    margin-bottom:60px;
+}
+.con_vin .subtitle{
+    font-family: 'IM Fell English SC', serif;
+    font-size:2.8rem;
+    color:#fff;
+    width:400px;
+    height:100px;
+    overflow:hidden;
+    margin:0 auto;
+    position:relative;
+}
+.con_vin .yellow_vin .subtitle img:nth-child(1){
+    position:absolute;
+    width:300px;
+    top:10px;
+} 
+.con_vin .yellow_vin .subtitle img:nth-child(2){
+    position:absolute;
+    width:150px;
+    right:0;
+    top:0px;
+} 
+.con_vin .yellow_vin .subtitle p{
+    display:inline-block;
+    width:400px;
+    height:100px;
+    position:absolute;
+    z-index:999;
+    text-align:center;
+    line-height:12rem;
+} 
+.con_vin .yellow_vin .yellow_con{
+    width:100%;
+    overflow:hidden;
+}
+.con_vin .yellow_vin .banner{
+    width:100%;
+    height:545px;
+    background-image:url(../img/vincent/yellow01.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.con_vin .yellow_vin .yellow_con .yellow_con_01{
+    margin:40px 0;
+    overflow:hidden;
+}
+.con_vin .yellow_vin .yellow_con .yellow_con_01 img{
+    float:left;
+    width:32.5%;
+    margin-right:5%;
+    margin-bottom:2%;
+}
+
+.con_vin .yellow_vin .yellow_con .yellow_con_02{
+    margin:40px 0;
+    overflow:hidden;
+}
+.con_vin .yellow_vin .yellow_con .yellow_con_02 img{
+    float:right;
+    width:41.3%;
+    margin-bottom:2%;
+    margin-left:5%;
+}
+/*yellow&blue 끝*/
+
+/*yellow&blue 반응형 시작*/
+@media screen and (max-width:1440px){
+    .con_vin .yellow_vin .banner{
+        height:0;
+        padding-bottom:45.5%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .con_vin .subtitle{
+        width:240px;
+        height:70px;
+    }
+    .con_vin .yellow_vin .subtitle p{
+        width:240px;
+        height:70px;
+    }
+    .con_vin .yellow_vin .subtitle img:nth-child(1){
+        position:absolute;
+        width:200px;
+        top:10px;
+    } 
+    .con_vin .yellow_vin .subtitle img:nth-child(2){
+        position:absolute;
+        width:100px;
+        right:0;
+        top:0px;
+    } 
+}
+@media screen and (max-width: 599px) {
+    .con_vin .yellow_vin{
+        margin-bottom:40px;
+    }
+}
+/*yellow&blue 반응형 끝*/
+
+/*green 시작*/
+.con_vin .green_vin{
+    overflow:hidden;
+    margin-bottom:60px;
+}
+.con_vin .green_vin .subtitle{
+    height:200px;
+}
+.con_vin .green_vin .subtitle img{
+    position:absolute;
+    width:400px;
+}
+.con_vin .green_vin .subtitle p{
+    display:inline-block;
+    width:400px;
+    height:200px;
+    position:absolute;
+    z-index:999;
+    text-align:center;
+    line-height:330px;
+}
+.con_vin .green_vin .green_con .banner{
+    width:100%;
+    height:510px;
+    background-image:url(../img/vincent/green01.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.con_vin .green_vin .green_con .green_con_01{
+    margin:40px 0;
+    overflow:hidden;
+}
+.con_vin .green_vin .green_con .green_con_01 img{
+    width:51%;
+    margin-left:5%;
+    margin-bottom:2%;
+    float:right;
+}
+/*green 끝*/
+
+/*green 반응형 시작*/
+@media screen and (max-width:1440px){
+    .con_vin .green_vin .green_con .banner{
+        height:0;
+        padding-bottom:42.5%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .con_vin .green_vin .subtitle{
+        height:140px;
+    }
+    .con_vin .green_vin .subtitle p{
+        display:inline-block;
+        width:240px;
+        height:140px;
+        position:absolute;
+        z-index:999;
+        text-align:center;
+        line-height:240px;
+    }
+    .con_vin .green_vin .subtitle img{
+        position:absolute;
+        width:240px;
+        top:10px;
+    } 
+}
+@media screen and (max-width: 599px) {
+    .con_vin .green_vin{
+        margin-bottom:40px;
+    }
+}
+/*green 반응형 끝*/
+
+/*white 시작*/
+.con_vin .white_vin{
+    overflow:hidden;
+    margin-bottom:60px;
+}
+.con_vin .white_vin .subtitle{
+    height:200px;
+}
+.con_vin .white_vin .subtitle img:nth-child(2){
+    position:absolute;
+    width:250px;
+    top:0px;
+    left:-20px;
+} 
+.con_vin .white_vin .subtitle img:nth-child(1){
+    position:absolute;
+    width:300px;
+    right:0px;
+    top:80px;
+} 
+.con_vin .white_vin .subtitle p{
+    display:inline-block;
+    width:400px;
+    height:150px;
+    position:absolute;
+    z-index:999;
+    text-align:center;
+    line-height:330px;
+} 
+.con_vin .white_vin .subtitle p span{
+    color:#222;
+}
+.con_vin .white_vin .white_con_01{
+    margin:0px 0 40px 0;
+    overflow:hidden;
+}
+.con_vin .white_vin .white_con_01 img{
+    float:left;
+    margin-right:5%;
+}
+.con_vin .white_vin .white_con_01 p{
+    padding-top:3%;
+}
+.con_vin .white_vin .white_con_02{
+    margin:40px 0;
+    overflow:hidden;
+}
+.con_vin .white_vin .white_con_02 img{
+    float:right;
+    margin-left:5%;
+    width:64.4%;
+    margin-bottom:2%;
+}
+.con_vin .white_vin .white_con_02 p{
+    padding-top:5%;
+}
+/*white 끝*/
+
+/*white 반응형 시작*/
+@media screen and (max-width:1440px){
+    .con_vin .white_vin .white_con_01 img{
+        width:57.3%;
+        margin-right:3%;
+        margin-bottom:2%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .con_vin .white_vin .subtitle{
+        height:140px;
+    }
+    .con_vin .white_vin .subtitle p{
+        display:inline-block;
+        width:240px;
+        height:140px;
+        position:absolute;
+        z-index:999;
+        text-align:center;
+        line-height:240px;
+    }
+    .con_vin .white_vin .subtitle img:nth-child(2){
+        width:170px;
+        top:0px;
+        left:-20px;
+    } 
+    .con_vin .white_vin .subtitle img:nth-child(1){
+        width:230px;
+        right:0px;
+        top:80px;
+    } 
+}
+@media screen and (max-width: 599px) {
+    .con_vin .white_vin{
+        margin-bottom:40px;
+    }
+}
+/*white 반응형 끝*/

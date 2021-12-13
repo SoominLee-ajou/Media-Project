@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
+body{
+    background-color:#f2f2f2;
+    color:#222;
+}
+/*메인 시작*/
+.main_ghibri{
+    width:100%;
+    height:100vh;
+    overflow:hidden;
+    background-image:url(../img/ost_ghibri/main.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    margin-bottom:50px;
+    position:relative;
+}
+/* 메인 끝 */
+
+/*메인 반응형 시작*/
+@media screen and (max-width: 767px) {
+    .main_ghibri{
+        width:100%;
+        height:50vh;
+    }
+}
+/*메인 반응형 끝*/
+
+/*서론 시작*/
+.con_ghibri{
+    max-width:1200px;
+    width:90%;
+    overflow:hidden;
+    margin:0 auto;
+}
+.con_ghibri .intro{
+    width:100%;
+    overflow:hidden;
+    margin-bottom:100px;
+}
+.con_ghibri .intro span{
+    display:block;
+    width:100%;
+    font-weight:700;
+    margin-bottom:15px;
+}
+.con_ghibri .intro p{
+    width:49%;
+    overflow:hidden;
+    float:left;
+}
+.con_ghibri .intro p+p{
+    margin-left:2%;
+}
+/*서론 끝*/
+
+/*서론 반응형 시작*/
+@media screen and (max-width:767px){
+    .con_ghibri .intro p{
+        width:100%;
+        float:none;
+    }
+    .con_ghibri .intro p+p{
+        margin-left:0%;
+        margin-top:10px;
+    }
+}
+/* 서론 반응형 끝 */
+
+/* 히사이시조 시작 */
+.con_ghibri .zoe{
+    width:100%;
+    overflow:hidden;
+    background-image:url(../img/ost_ghibri/zoe.png);
+    background-repeat:no-repeat;
+    background-position:left 50px;
+    margin-bottom:100px;
+}
+.con_ghibri .zoe p{
+    width:500px;
+    overflow:hidden;
+    padding:8% 6.5%;
+    box-sizing:border-box;
+    background-color:rgba(255,255,255,0.9);
+    float:right;
+}
+.con_ghibri .zoe p span{
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size:4rem;
+    line-height:10rem;
+}
+/* 히사이시조 끝 */
+
+/* 히사이시조 반응형 시작 */
+@media screen and (max-width:1125px){
+    .con_ghibri .zoe{
+        background-size:contain;
+    }
+}
+@media screen and (max-width:1025px){
+    .con_ghibri .zoe p{
+        width:50%;
+    }
+}
+@media screen and (max-width:767px){
+    .con_ghibri .zoe{
+        background-position:left top;
+    }
+    .con_ghibri .zoe p{
+        width:100%;
+        padding:0;
+        padding-top:63.77%;
+        background-color:rgba(255,255,255,0);
+    }
+}
+/* 히사이시조 반응형 끝 */
+
+/* 영화1 시작 */
+.con_ghibri .movie_01{
+    width:100%;
+    overflow:hidden;
+    background-image:url(../img/ost_ghibri/bg01.png);
+    background-repeat:no-repeat;
+    background-size:60%;
+    background-position:right top;
+    margin-bottom:100px;
+}
+.con_ghibri .movie_01 img{
+    width:50%;
+    float:right;
+    margin-top:6.5%;
+    margin-right:5%;
+    margin-left:3%;
+}
+.con_ghibri .movie_01 .text{
+    padding-right:40%;
+}
+.con_ghibri .movie_01 h1{
+    font-family: 'Hi Melody', cursive;
+    font-size:2.8rem;
+    line-height:5rem;
+    margin:5% 0;
+}
+.con_ghibri .movie_01 h1 a{
+    margin-left:6rem;
+    font-size:3.2rem;
+    color:#222;
+    padding:5px;
+}
+.con_ghibri .movie_01 h1 a:hover{
+    background-color:#d0c0aa;
+    color:#fff;
+}
+/* 영화1 끝 */
+
+/* 영화1 반응형 시작 */
+@media screen and (max-width:767px){
+    .con_ghibri .movie_01 .text{
+        padding-right:0%;
+    }
+}
+@media screen and (max-width:599px){
+    .con_ghibri .movie_01 img{
+        width:100%;
+        margin-left:0;
+        margin-bottom:20px;
+    }
+}
+/* 영화1 반응형 끝 */
+
+/* 영화2 시작 */
+.con_ghibri .movie_02{
+    width:100%;
+    overflow:hidden;
+    background-image:url(../img/ost_ghibri/bg02.png);
+    background-repeat:no-repeat;
+    background-size:60%;
+    background-position:left top;
+    margin-bottom:100px;
+}
+.con_ghibri .movie_02 img{
+    width:50%;
+    float:left;
+    margin-top:6.5%;
+    margin-right:3%;
+    margin-left:5%;
+}
+.con_ghibri .movie_02 .text{
+    padding-left:40%;
+}
+.con_ghibri .movie_02 h1{
+    font-family: 'Hi Melody', cursive;
+    font-size:2.8rem;
+    line-height:5rem;
+    margin:5% 0;
+}
+.con_ghibri .movie_02 h1 a{
+    margin-left:3rem;
+    font-size:3.2rem;
+    color:#222;
+    padding:5px;
+    /* letter-spacing:-0.2rem; */
+}
+.con_ghibri .movie_02 h1 a:hover{
+    background-color:#ce9179;
+    color:#fff;
+}
+/* 영화2 끝 */
+
+/* 영화2 반응형 시작 */
+@media screen and (max-width:767px){
+    .con_ghibri .movie_02 .text{
+        padding-left:0%;
+    }
+}
+@media screen and (max-width:599px){
+    .con_ghibri .movie_02 img{
+        width:100%;
+        margin-right:0%;
+        margin-bottom:20px;
+    }
+}
+/* 영화2 반응형 끝 */
+
+/* 영화3 시작 */
+.con_ghibri .movie_03{
+    width:100%;
+    overflow:hidden;
+    background-image:url(../img/ost_ghibri/bg03.png);
+    background-repeat:no-repeat;
+    background-size:60%;
+    background-position:right top;
+    margin-bottom:100px;
+}
+.con_ghibri .movie_03 img{
+    width:50%;
+    float:right;
+    margin-top:6.5%;
+    margin-right:5%;
+    margin-left:3%;
+}
+.con_ghibri .movie_03 .text{
+    padding-right:40%;
+}
+.con_ghibri .movie_03 h1{
+    font-family: 'Hi Melody', cursive;
+    font-size:2.8rem;
+    line-height:5rem;
+    margin:5% 0;
+}
+.con_ghibri .movie_03 h1 a{
+    margin-left:3rem;
+    font-size:3.2rem;
+    color:#222;
+    padding:5px;
+}
+.con_ghibri .movie_03 h1 a:hover{
+    background-color:#87a186;
+    color:#fff;
+}
+/* 영화3 끝 */
+
+/* 영화3 반응형 시작 */
+@media screen and (max-width:767px){
+    .con_ghibri .movie_03 .text{
+        padding-right:0%;
+    }
+}
+@media screen and (max-width:599px){
+    .con_ghibri .movie_03 img{
+        width:100%;
+        margin-left:0;
+        margin-bottom:20px;
+    }
+}
+/* 영화3 반응형 끝 */

@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap');
+body{
+    background-color:#f1f6fc;
+    color:#333;
+}
+/*메인 시작*/
+.main_happy{
+    width:100%;
+    height:100vh;
+    overflow:hidden;
+    background-image:url(../img/tw_happy/banner_image.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    margin-bottom:50px;
+    position:relative;
+}
+.main_happy .inner{
+    max-width:1200px;
+    width:80%;
+    height:100%;
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.main_happy .inner img{
+    width:40%;
+}
+.main_happy>img{
+    width:100%;
+    position:absolute;
+    bottom:0;
+}
+/* 메인 끝 */
+
+/*메인 반응형 시작*/
+@media screen and (max-width: 767px) {
+    .main_happy{
+        height:50vh;
+    }
+}
+/*메인 반응형 끝*/
+
+/* 서론 시작 */
+.con_happy{
+    width:100%;
+    overflow:hidden;
+}
+.con_happy .intro{
+    width:90%;
+    max-width:960px;
+    margin:50px auto 100px auto;
+    display:flex;
+    justify-content: space-between;
+}
+.con_happy .intro img{
+    width:6rem;
+    height:6rem;
+    float:left;
+    padding-right:5%;
+}
+.con_happy .intro p{
+    display:block;
+    width:calc(100% - 6rem);
+}
+/* 서론 끝 */
+
+/* content blue 시작 */
+.con_happy .content{
+    width:90%;
+    max-width:1440px;
+    padding:5%;
+    border:4px solid #bcdffc;
+    border-radius:20px;
+    box-sizing:border-box;
+    background-color:#fff;
+    margin:0px auto;
+}
+.con_happy .subtitle{
+    margin:0 auto 40px auto;
+    text-align:center;
+    width:350px;
+    height:60px;
+    line-height:60px;
+    background-image:url(../img/tw_happy/part1_title_underline.png);
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-position:bottom;
+}
+.con_happy .subtitle h1{
+    font-family: 'Dongle', sans-serif;
+    font-size:4.8rem;
+}
+.con_happy .blue img{
+    width:50%;
+    height:auto;
+    float:left;
+    margin-right:5%;
+    margin-bottom:2.8rem;
+}
+.con_happy .content span{
+    display:inline-block;
+    font-family: 'Dongle', sans-serif;
+    font-size:3.6rem;
+    padding:1rem 2rem 1rem 1rem;
+    margin:4% 0 2% 0;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#bddffc+0,bddffc+100&1+61,0+62 */
+background: -moz-linear-gradient(top,  rgba(189,223,252,1) 0%, rgba(189,223,252,1) 61%, rgba(189,223,252,0) 62%, rgba(189,223,252,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(189,223,252,1) 0%,rgba(189,223,252,1) 61%,rgba(189,223,252,0) 62%,rgba(189,223,252,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(189,223,252,1) 0%,rgba(189,223,252,1) 61%,rgba(189,223,252,0) 62%,rgba(189,223,252,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bddffc', endColorstr='#00bddffc',GradientType=0 ); /* IE6-9 */
+
+}
+/* content blue 끝 */
+
+/* content blue 반응형 시작 */
+@media screen and (max-width:599px){
+    .con_happy .subtitle{
+        width:300px;
+        height:40px;
+        line-height:40px;
+    }
+    .con_happy .subtitle h1{
+        font-size:4rem;
+    }
+}
+@media screen and (max-width:479px){
+    .con_happy .subtitle{
+        width:220px;
+        height:30px;
+        line-height:30px;
+    }
+    .con_happy .subtitle h1{
+        font-size:3.6rem;
+    }
+}
+@media screen and (max-width:374px){
+    .con_happy .subtitle{
+        width:200px;
+        height:30px;
+        line-height:30px;
+    }
+    .con_happy .subtitle h1{
+        font-size:3.2rem;
+    }
+    .con_happy .content span{
+        font-size:3.2rem;
+    }
+}
+/* content blue 반응형 끝 */
+
+/* line 시작 */
+.con_happy .line{
+    width:90%;
+    max-width:1440px;
+    margin:100px auto;
+    overflow:hidden;
+}
+.con_happy .line img{
+    width:100%;
+}
+/* line 끝 */
+
+/* line 반응형 시작 */
+@media screen and (max-width:767px){
+    .con_happy .line{
+        margin:50px auto;
+    }
+}
+/* line 반응형 끝 */
+
+/* green 시작 */
+.con_happy .green{
+    border:4px solid #baf59f;
+}
+.con_happy .green .box01{
+    width:100%;
+}
+.con_happy .green .box01 img{
+    width:45%;
+    height:auto;
+    float:left;
+    margin-right:5%;
+    margin-bottom:2.8rem;
+    border: solid #baf59f;
+    border-radius:2rem;
+    box-sizing:border-box;
+}
+.con_happy .green h6{
+    font-family: 'Dongle', sans-serif;
+    font-size:2rem;
+}
+.con_happy .green mark{
+    font-family: 'Dongle', sans-serif;
+    font-size:2.8rem;
+    padding:0 2rem 0 1rem;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ddffcd+0,ddffcd+100&1+61,0+62 */
+background: -moz-linear-gradient(top,  rgba(221,255,205,1) 0%, rgba(221,255,205,1) 61%, rgba(221,255,205,0) 62%, rgba(221,255,205,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(221,255,205,1) 0%,rgba(221,255,205,1) 61%,rgba(221,255,205,0) 62%,rgba(221,255,205,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(221,255,205,1) 0%,rgba(221,255,205,1) 61%,rgba(221,255,205,0) 62%,rgba(221,255,205,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ddffcd', endColorstr='#00ddffcd',GradientType=0 ); /* IE6-9 */
+}
+.con_happy .green .box02{
+    margin:80px auto;
+}
+.con_happy .green .box02 img{
+    width:45%;
+    height:auto;
+    float:right;
+    margin-left:5%;
+    margin-bottom:2.8rem;
+    border:0.4rem solid #baf59f;
+    border-radius:2rem;
+}
+.con_happy .green .box03{
+    margin:80px auto;
+}
+.con_happy .green .box03 img{
+    width:45%;
+    height:auto;
+    float:left;
+    margin-right:5%;
+    margin-bottom:4rem;
+    border:0.4rem solid #baf59f;
+    border-radius:2rem;
+}
+/* green 끝 */
+
+/* yellow 시작 */
+.con_happy .yellow{
+    border:4px solid #e0c736;
+    margin-bottom:100px;
+}
+.con_happy .yellow .subtitle{
+    background-image:url(../img/tw_happy/part3_title_underline.png);
+}
+.con_happy .yellow img{
+    float:right;
+    width:50%;
+    margin-left:5%;
+    margin-bottom:2.8rem;
+}
+.con_happy .yellow span{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f2e8ae+0,f2e8ae+100&1+61,0+62 */
+background: -moz-linear-gradient(top,  rgba(242,232,174,1) 0%, rgba(242,232,174,1) 61%, rgba(242,232,174,0) 62%, rgba(242,232,174,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(242,232,174,1) 0%,rgba(242,232,174,1) 61%,rgba(242,232,174,0) 62%,rgba(242,232,174,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(242,232,174,1) 0%,rgba(242,232,174,1) 61%,rgba(242,232,174,0) 62%,rgba(242,232,174,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2e8ae', endColorstr='#00f2e8ae',GradientType=0 ); /* IE6-9 */
+
+}
+/* yellow 끝 */
+

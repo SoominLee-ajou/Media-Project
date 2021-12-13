@@ -1,0 +1,159 @@
+.color .bg{
+    width:100%;
+    height:100vh;
+    background-image:url(../img/color/img_background.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:top center;
+    position:fixed;
+    z-index:1;
+    opacity:0.9;
+}
+/* 색감 컨텐츠 시작 */
+.color .con{
+    width:90%;
+    max-width:1200px;
+    overflow:hidden;
+    padding-top:100px;
+    margin:0px auto 30px auto;
+    box-sizing:border-box;
+    position:relative;
+    z-index:100;
+}
+.color .con .text{
+    width:66%;
+    height:0;
+    padding-bottom:260px;
+    float:left;
+    margin-right:2%;
+    margin-bottom:2%;
+}
+.color .con .text h1{
+    font-size:2.4rem;
+    line-height:6rem;
+    font-weight:500;
+    color:#fff;
+}
+.color .con .text p{
+    font-size:1.6rem;
+    line-height:2.4rem;
+    font-weight:300;
+    color:#fff;
+}
+.color .con .box{
+    width:32%;
+    height:0;
+    padding-bottom:260px;
+    float:left;
+    background-color:saddlebrown;
+    position:relative;
+}
+.color .con .box span{
+    width:100%;
+    height:100%;
+    position:absolute;
+    opacity:0;
+}
+.color .con .box a{
+    display:block;
+    width:100%;
+    height:100px;
+    line-height:100px;
+    text-align:center;
+    font-size:2rem;
+    font-weight:300;
+    color:#fff;
+    position:absolute;
+    top:50%;
+    left:0;
+    margin-top:-50px;
+    cursor:pointer;
+    opacity:0;
+}
+.color .con .lala{
+    background-image:url(../img/color/banner05.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.color .con .lala span{
+    background-color:#514899;
+}
+.color .con .prada{
+    margin-right:2%;
+    background-image:url(../img/color/banner03.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.color .con .prada span{
+    background-color:#680010;
+}
+.color .con .grand{
+    margin-right:2%;
+    background-image:url(../img/color/banner02.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.color .con .grand span{
+    background-color:#cd95a5;
+}
+.color .con .vin{
+    background-image:url(../img/color/banner04.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.color .con .vin span{
+    background-color:#6c7575;
+}
+/* 색감 컨텐츠 끝 */
+
+/* 색감 컨텐츠 반응형 시작 */
+@media screen and (max-width: 768px){
+    .color .con{
+        box-sizing:border-box;
+        position:relative;
+        z-index:100;
+    }
+    .color .con .text{
+        width:100%;
+        height:auto;
+        padding-bottom:0;
+        float:none;
+        margin-right:0;
+        margin-bottom:60px;
+    }
+    .color .con .prada{
+        margin-right:0%;
+    }
+    .color .con .grand{
+        margin-right:0%;
+    }
+    .color .con .box{
+        width:48%;
+        float:left;
+        margin-bottom:4%;
+    }
+    .color .con .box:nth-of-type(2n){
+        margin-right:4%;
+    }
+}
+@media screen and (max-width: 599px) {
+    .color .con{
+        box-sizing:border-box;
+        position:relative;
+        z-index:100;
+    }
+    .color .con .box:nth-of-type(2n){
+        margin-right:0;
+    }
+    .color .con .box{
+        width:100%;
+        padding-bottom:200px;
+        float:none;
+        margin-bottom:4%;
+    }
+}
+/* 색감 컨텐츠 반응형 끝 */

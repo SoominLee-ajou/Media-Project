@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+body{
+    background-color:black;
+    color:#fff;
+}
+/* 메인 시작 */
+.main_nolan{
+    width:100%;
+    height:100vh;
+    background-image:url(../img/ost_nolan/main.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.main_nolan .main_inner{
+    width:90%;
+    max-width:1200px;
+    height:100%;
+    margin:0 auto;
+    display:flex;
+    align-items: flex-end;
+    justify-content: right;
+    /* background-color:rgba(255,255,255,0.5); */
+}
+.main_nolan .main_inner h1{
+    font-family: 'Libre Baskerville', serif;
+    font-size:6rem;
+    line-height:10rem;
+    text-align:right;
+}
+/* 메인 끝 */
+
+/* 메인 반응형 시작 */
+@media screen and (max-width:767px){
+    .main_nolan{
+        width:100%;
+        height:50vh; 
+    }
+}
+/* 메인 반응형 끝 */
+
+/* 서론 시작 */
+.con_nolan{
+    width:100%;
+}
+.con_nolan .intro{
+    width:720px;
+    overflow:hidden;
+    margin:100px auto;
+    text-align:center;
+    font-size:1.6rem;
+    line-height:2.4rem;
+}
+.con_nolan .intro span{
+    display:block;
+    font-size:1.3rem;
+    margin-top:2rem;
+}
+/* 서론 끝 */
+
+/* 서론 반응형 시작 */
+@media screen and (max-width:900px){
+    .con_nolan .intro{
+        width:80%;
+    }
+}
+/* 서론 반응형 끝 */
+
+/* 사람 소개 시작 */
+.con_nolan .who{
+    width:100%;
+    overflow:hidden;
+    margin:100px auto;
+    background-image:url(../img/ost_nolan/left.png), url(../img/ost_nolan/right.png);
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:left ,right;
+}
+.con_nolan .who .who_inner{
+    width:90%;
+    max-width:1200px;
+    margin:0 auto;
+}
+.con_nolan .who .who_inner .subtitle{
+    width:100%;
+    overflow:hidden;
+    margin-bottom:50px;
+    text-align:center;
+}
+.con_nolan .who .who_inner .subtitle h1{
+    font-family: 'Libre Baskerville', serif;
+    font-size:2.4rem;
+    line-height:4.2rem;
+}
+.con_nolan .who .who_inner .subtitle h1 br{
+    display:none;
+}
+.con_nolan .who .who_inner .photo{
+    width:50%;
+    height:0;
+    overflow:hidden;
+    padding-bottom:50%;
+    background-image:url(../img/ost_nolan/who.png);
+    background-size:100%;
+    float:left;
+    margin-right:5%;
+}
+.con_nolan .who .who_inner .photo span{
+    display:block;
+    width:100%;
+    height:600px;
+    background: -moz-linear-gradient(left,  rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=1 ); /* IE6-9 */
+}
+.con_nolan .who .who_inner h2{
+    font-weight:500;
+    margin:30px 0;
+}
+.con_nolan .who .who_inner p span{
+    display:block;
+    font-size:1.3rem;
+    margin:1rem 0 2rem 0;
+}
+/* 사람 소개 끝 */
+
+/* 사람 소개 반응형 시작 */
+@media screen and (max-width:479px){
+    .con_nolan .who .who_inner .subtitle h1 br{
+        display:block;
+    }
+}
+/* 사람 소개 반응형 끝 */
+
+/* 사람 소개2 시작 */
+.con_nolan .who_2{
+    width:100%;
+    overflow:hidden;
+    margin:100px auto;
+    background-image:url(../img/ost_nolan/bg_city.png);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.con_nolan .img_bar{
+    width:90%;
+    max-width:1200px;
+    overflow:hidden;
+    margin:0 auto 100px auto;
+    border:1px solid #ddd;
+    padding:10px;
+    box-sizing:border-box;
+    display:flex;
+    justify-content: space-between;
+}
+.con_nolan .img_bar img{
+    width:32.5%;
+}
+.con_nolan .who_2 .inner{
+    width:90%;
+    max-width:1200px;
+    margin:0 auto;
+}
+.con_nolan .who_2 .inner img{
+    width:46.25%;
+    float:right;
+    margin-left:5%;
+}
+.con_nolan .who_2 .inner p span{
+    display:block;
+    font-size:1.3rem;
+    margin:1rem 0 2rem 0;
+}
+/* 사람 소개2 끝 */
+
+/* 사람소개2 반응형 시작 */
+@media screen and (max-width:479px){
+    .con_nolan .img_bar{
+        flex-wrap: wrap;
+    }
+    .con_nolan .img_bar img{
+        width:100%;
+    }
+    .con_nolan .img_bar img+img{
+        margin-top:10px;
+    }
+}
+/* 사람소개2 반응형 끝 */
+
+/* track 소개 시작 */
+.con_nolan .track{
+    width:100%;
+    margin:100px auto;
+}
+.con_nolan .track>h1{
+    width:90%;
+    font-family: 'Libre Baskerville', serif;
+    font-size:2.4rem;
+    line-height:4.2rem;
+    display:block;
+    max-width:1200px;
+    width:90%;
+    overflow:hidden;
+    padding:4rem 0;
+    margin:0 auto;
+    border-top:1px solid #ddd;
+    text-align:center;
+}
+.con_nolan .track .track_btn{
+    max-width:1200px;
+    width:90%;
+    overflow:hidden;
+    margin:0 auto;
+    margin-bottom:60px;
+    display:flex;
+    justify-content: space-between;
+}
+.con_nolan .track .track_btn .track_box{
+    width:20%;
+    text-align:center;
+    cursor:pointer;
+}
+.con_nolan .track .track_btn .track_box h2{
+    font-family: 'Libre Baskerville', serif;
+    font-size:1.6rem;
+}
+.con_nolan .track .track_btn .track_box img{
+    width:100%;
+    border-radius:100%;
+    margin-top:1.6rem;
+}
+.con_nolan .track .track_btn .t02{
+    opacity:0.3;
+}
+.con_nolan .track .track_btn .t03{
+    opacity:0.3;
+}
+
+.con_nolan .track_list{
+    width:100%;
+    position:relative;
+}
+.con_nolan .track_list .track_con{
+    width:100%;
+    background-color:#000;
+    position:absolute;
+}
+.con_nolan .track_list .tc01{
+    background-image:url(../img/ost_nolan/ost_bg_01.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.con_nolan .track_list .tc02{
+    background-image:url(../img/ost_nolan/ost_bg_02.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    display:none;
+}
+.con_nolan .track_list .tc03{
+    background-image:url(../img/ost_nolan/ost_bg_03.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    display:none;
+}
+.con_nolan .track_con .track_inner{
+    width: 90%;
+    max-width:1200px;
+    margin:0 auto;
+    margin-bottom:100px;
+}
+.con_nolan .track_con .track_inner a img{
+    width:50%;
+    float:right;
+    margin-left:5%;
+    margin-bottom:2%;
+}
+.con_nolan .track_con .track_inner h1{
+    display:block;
+    margin:20px 0;
+    font-family: 'Libre Baskerville', serif;
+    font-size:2.4rem;
+    line-height:4.2rem;
+
+}
+/* track 소개 끝 */

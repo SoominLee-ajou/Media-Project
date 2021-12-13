@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+		name="viewport">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="h-7">
+        <meta property="og:description" content="영화의 스토리뿐만 아니라 숨은 연출, 음악 등 영화 속 다양한 요소들을 소개하는 웹 매거진">
+        <meta property="og:image" content="img/common/opengraph.jpg">
+        <title>OST 영화</title>
+        <link href="css/reset.css" rel="stylesheet" type="text/css">
+        <link href="css/common.css" rel="stylesheet" type="text/css">
+        <link href="css/ost_style.css" rel="stylesheet" type="text/css">
+        <link rel="icon" href="img/common/favicon.ico">
+        <script src="https://kit.fontawesome.com/4715b1c10d.js" crossorigin="anonymous"></script>
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+        <script src="js/header.js"></script>
+        <script>
+            $(document).ready(function(){
+
+                $(".box").mouseover(function(){
+                    $(this).find('span').stop(true).animate({opacity:'0.8'});
+                    $(this).find('a').stop(true).animate({opacity:'1'});
+                });
+                $(".box").mouseout(function(){
+                    $(this).find('span').stop(true).animate({opacity:'0'});
+                    $(this).find('a').stop(true).animate({opacity:'0'});
+                });
+                
+
+            //------------------------------------------
+            });
+        </script>
+    </head>
+    <body>
+        <!--헤더 시작-->
+        <div class="header_container">
+            <header>
+                <a href="index.html" class="logo">
+                    <img src="img/common/logo.svg" class="scroll_down" alt=""/>
+                    <img src="img/common/logo_w.svg" class="scroll_up" alt=""/>
+                </a>
+                <ul class="mainmenu">
+                    <li><a href="project.html"><p>Project</p></a></li>
+                    <li><a href="editor.html"><p>Editor</p></a></li>
+                    <li class="theme">
+                        <p>Theme <i class="fas fa-caret-down upside"></i></p>
+                        <ul class="submenu">
+                            <a href="color.html"><li>Color</li></a>
+                            <a href="ost.html"><li>OST</li></a>
+                            <a href="tw.html"><li>20's</li></a>
+                        </ul>
+                    </li>
+                </ul>
+            </header>
+        </div>
+        <!--헤더 끝-->
+        
+        <div class="ost">
+            <div class="bg"></div>
+            <div class="con">
+                <div class="text">
+                    <h1>영화의 몰입을 돕는 영화 음악들</h1>
+                    <p>
+                        “영화를 보며 눈에 눈물을 고이게 하는 것은 감독의 
+                        몫이지만, 그것을 흘러내리게 하는 건 작곡가의 몫이다.”
+                        라는 말이 있을 정도로 영화에서 소리는 매우 중요한 
+                        역할을 한다. 영화의 청각적 요소는 시각적 요소나 
+                        대사로는 표현할 수 없는 부분을 채워주며, 영화의 
+                        전반적인 스토리를 이끌어 간다. 영화 음악, 그 속에 
+                        담겨있는 숨겨진 의미를 찾아본다면 작품을 이해할 수 
+                        있는 폭이 넓어질 것이다. 극장을 나온 후에도 관객들의 
+                        머릿속을 맴도는 아름다운 OST만 아니라, 영화의 정체성을 
+                        표현하는 다양한 종류의 스코어까지 영화음악에 대해 알아보자.
+                    </p>
+                </div>
+                <div class="box atime">
+                    <span></span>
+                    <a href="ost_atime.html">어바웃 타임</a>
+                </div>
+                <div class="box ghibri">
+                    <span></span>
+                    <a href="ost_ghibri.html">스튜디오 지브리</a>
+                </div>
+                <div class="box mile">
+                    <span></span>
+                    <a href="ost_mile.html">8 마일</a>
+                </div>
+                <div class="box nolan">
+                    <span></span>
+                    <a href="ost_nolan.html">크리스토퍼 놀란</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
